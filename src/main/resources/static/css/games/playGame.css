@@ -1,0 +1,47 @@
+.hidden {
+	display: none;
+}
+
+.disply {
+	display: run-in;
+}
+
+.pile {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid;
+	border-color: rgba(50, 50, 50, 0.1);
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+table tr, td {
+	padding: 0px;
+	border: 0px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+#Content-Left{
+    height:500px;
+    width:600px;
+    margin:20px;/*设置元素跟其他元素的距离为20像素*/
+    float:left;/*设置浮动，实现多列效果，div+Css布局中很重要的*/
+/*     background:#90C; */
+}
+#Content-Right{
+    height:500px;
+    width:200px;
+    margin:20px;/*设置元素跟其他元素的距离为20像素*/
+    float:left;/*设置浮动，实现多列效果，div+Css布局中很重要的*/
+/*     background:#90C; */
+}
